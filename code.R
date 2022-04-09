@@ -193,7 +193,12 @@ all_trips_v2 %>%
             ,average_duration = mean(ride_length)) %>% 
   arrange(member_casual, weekday)  %>% 
   ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
-  geom_col(position = "dodge")
+  geom_col(position = "dodge")  +
+  scale_fill_brewer(palette = "Set1") +
+  ggtitle("Number of Rides by Weekday") +
+  xlab("Weekday") +
+  ylab("Number of Rides") +
+  labs(fill="User Type")
 
 # Let's create a visualization for average duration
 all_trips_v2 %>% 
@@ -203,7 +208,12 @@ all_trips_v2 %>%
             ,average_duration = mean(ride_length)) %>% 
   arrange(member_casual, weekday)  %>% 
   ggplot(aes(x = weekday, y = average_duration, fill = member_casual)) +
-  geom_col(position = "dodge")
+  geom_col(position = "dodge")  +
+  scale_fill_brewer(palette = "Set1") +
+  ggtitle("Average Ride Length by Weekday") +
+  xlab("Weekday") +
+  ylab("Average Ride Length") +
+  labs(fill="User Type")
 
 #=================================================
 # STEP 5: EXPORT SUMMARY FILE FOR FURTHER ANALYSIS
