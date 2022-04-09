@@ -174,7 +174,8 @@ pre code {
 
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
-<p>This document details the process and the analysis part of the Cyclistic case study where the difference between the two types of users (casual and member) is analyzed. The datasets used can be found <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" title="divvy-tripdata">here</a>.</p>
+<p>This document details the process and the analysis part of the Cyclistic case study provided in the Google Data Analytics Professional Certificate program’s last course, Google Data Analytics Capstone: Complete a Case Study.</p>
+<p>Here the difference between the two types of users (casual and member) is analyzed. The datasets used can be found <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" title="divvy-tripdata">here</a>.</p>
 <ul>
 <li><em>Some of the details have been excluded because the document gets cluttered.</em></li>
 <li><em>Most of the code was written by Kevin Hartman from the Google Data Analytics Certificate.</em></li>
@@ -182,6 +183,13 @@ pre code {
 </div>
 <div id="preparing-the-data" class="section level2">
 <h2>Preparing the Data</h2>
+<div id="installing-some-necessary-packages" class="section level5">
+<h5>Installing some necessary packages:</h5>
+<pre class="r"><code>library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(kableExtra)</code></pre>
+</div>
 <div id="loading-the-data-for-the-analysis" class="section level5">
 <h5>Loading the data for the analysis:</h5>
 <pre class="r"><code>q2_2019 &lt;- read_csv(&quot;Divvy_Trips_2019_Q2.csv&quot;)
