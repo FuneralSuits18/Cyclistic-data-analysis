@@ -9,4 +9,4 @@ Report.pdf contains the step-by-step report of the whole analysis process. \
 Tableau dashboard link.txt contains the link to the Tableau Public dashboard. \
 all_trips.csv contains the final dataset after cleaning. \
 code.R contains the code for cleaning the dataset. Here R programming language is used. \
-code_documentation.html contains the documentation for the code. \
+code_documentation.html contains the documentation for the code.
