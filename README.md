@@ -1,8 +1,6 @@
 # Cyclistic-data-analysis
 
-An analytical case study of the fictional company Cyclistic's bike-sharing services.
-
-The case was provided in the Google Data Analytics Professional Certificate program's last course, Google Data Analytics Capstone: Complete a Case Study.
+An analytical case study of the fictional company Cyclistic's bike-sharing services. The case was provided in the Google Data Analytics Professional Certificate program's last course, Google Data Analytics Capstone: Complete a Case Study.
 
 * "Case Study 1.pdf" contains the case given. \
 * "Report.pdf" contains the step-by-step report of the whole analysis process. \
